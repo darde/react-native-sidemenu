@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/classes-8e91e1a81bd0c28451ed52809fae3eb882f06d19.jar" />
+    </item>
+    <item
+        jar="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/classes-f66a59ecb576d635310ee596eef2bd7ab7ee4ecb.jar" />
+    </item>
+    <item
+        jar="/home/pablo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1-7c4610268c9f0c1f732f8fb38bc0c4f1d9faf2c0.jar" />
+    </item>
+    <item
+        jar="/home/pablo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1-bea375a539d40ae0f65838322021fe29589f0a99.jar" />
+    </item>
+    <item
+        jar="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/classes-ef99eb9fb449e8475e27cb0cd996d38c6d6fab71.jar" />
+    </item>
+    <item
+        jar="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/classes-893ab92e3c6883f9000a2737fd2a847a041372cb.jar" />
+    </item>
+    <item
+        jar="/home/pablo/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-fa2d85d35f7e8beb07df945fb22d037a0735f1e0.jar" />
+    </item>
+    <item
+        jar="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1-4d33a1db241a0fac5fdfa718afb50e486262daf5.jar" />
+    </item>
+    <item
+        jar="/home/pablo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-36956fa76c934928ecadbc3d57b7a1633e5efaf0.jar" />
+    </item>
+    <item
+        jar="/home/pablo/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0-11c6de8780139d21d298136a032d142e6a99ce41.jar" />
+    </item>
+    <item
+        jar="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/classes-36e51f2af5b25ef4274e70ac933fea2b7aa8c685.jar" />
+    </item>
+    <item
+        jar="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/classes-cdeb0fb523545d46393e45515f2a58f0b0aeda97.jar" />
+    </item>
+    <item
+        jar="/home/pablo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1-ddbbc5d0e0e68ca278569d62edaf72b58ff85b0a.jar" />
+    </item>
+    <item
+        jar="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/classes-21fe72597a40bb3779505e7f008bfa52e94bb3c9.jar" />
+    </item>
+    <item
+        jar="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-04ed1e5ae76cd42449fbde78528868d693ae3a55.jar" />
+    </item>
+    <item
+        jar="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/exploded-aar/sidemenu/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92b1efc36588420bc012d66d818f1b89be2bdebf">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/classes-b4ee3b89dbe7e5188e8b5a34ad5591af1e698a3d.jar" />
+    </item>
+    <item
+        jar="/home/pablo/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/javax.inject-1-7d077b571d46c57725b21507434e2e22d9dc83c0.jar" />
+    </item>
+    <item
+        jar="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2d74afead061bfd6dda3c18734ebcf3fe0d84a7c">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/classes-da2f60dc1af3ee98ab1e902b50bd23c276916674.jar" />
+    </item>
+    <item
+        jar="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/classes-d71deaa2d83c224aac52c5cc5b099b21249368f0.jar" />
+    </item>
+    <item
+        jar="/home/pablo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1-515c076c941ed2e8edcf44860ed67f816a9f7056.jar" />
+    </item>
+    <item
+        jar="/home/pablo/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-1a871f0e9de9d052ed70f704856e0c812d82f27b.jar" />
+    </item>
+    <item
+        jar="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/classes-01fbde8cb7f479683f00c7486444950850449feb.jar" />
+    </item>
+    <item
+        jar="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/pablo/Documents/Projects/Published/sidemenu/android/app/build/intermediates/pre-dexed/debug/classes-015cde4c66806812516e804084fcf0cc864387e6.jar" />
+    </item>
+
+</items>
