@@ -10,7 +10,7 @@
 
 ### Motivation
 
-When I worked with [ionic framework](https://ionicframework.com/), one of the most cool features in my opinion, was the ionic default templates. If I wanted to set up a new side menu ionic app, my only work was type `ionic start myApp sidemenu` in a terminal, and _voalla_. Unfortunately, until the release of this project, I could not find any complete side menu template for react native, because of this, I decide to do my own template. Feel free to collaborate or suggest any changes, I'm sure that many things can be improved.
+When I worked with [ionic framework](https://ionicframework.com/), one of the better cool features in my opinion, was the ionic default templates. If I wanted to set up a new side menu ionic app, my only work was type `ionic start myApp sidemenu` in a terminal, and _voalla_. Unfortunately, until the release of this project, I could not find any complete side menu template for react native, because of this, I decide to do my own template. Feel free to collaborate or suggest any changes, I'm sure that many things can be improved.
 
 ### Get started
 
@@ -28,7 +28,7 @@ That's all, now you can change the project according to your needs. If you prefe
 ### Project Structure
 Basically, this is a default React Native project created by the command line `react-native init react-native-sidemenu`. The core of the template is:
 
-![Project Structure]('project-structure.png')
+![Project Structure](https://drive.google.com/drive/folders/0B3PNbwUWlE6gRm1GdlZuLXpwQk0)
 
 ### License
 This project is licenced under the [MIT License][mit].
