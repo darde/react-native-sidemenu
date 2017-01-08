@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {
   View,
+  ScrollView,
   Text,
   Linking,
   StyleSheet
@@ -10,7 +11,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 const About = () => {
   return (
-    <View style={styles.view}>
+    <ScrollView contentContainerStyle={styles.view}>
       <Text style={styles.h1}>About</Text>
       <Text style={[styles.text, styles.p]}>This is a React Native template. It is a
         sidemenu boilerplate. It has some awesome features such as DrawerLayoutAndroid,
@@ -28,31 +29,30 @@ const About = () => {
       <Text style={styles.signature}>Pablo Rodrigo Darde</Text>
       <Text style={styles.position}>Front end engineer</Text>
       <View style={styles.social}>
-        <Icon name="logo-linkedin" size={30} color="#333" style={{marginRight: 10}} />
+        <Icon name="logo-linkedin" size={30} color="#2962FF" style={{marginRight: 10}} />
         <Text onPress={() =>
           Linking.openURL('https://www.linkedin.com/in/pablodarde')}
+          style={styles.link}
         >
           www.linkedin.com/in/pablodarde
         </Text>
       </View>
       <View style={styles.social}>
-        <Icon name="logo-github" size={30} color="#333" style={{marginRight: 10}} />
+        <Icon name="logo-github" size={30} color="#2962FF" style={{marginRight: 10}} />
         <Text onPress={() =>
           Linking.openURL('https://github.com/darde')}
+          style={styles.link}
         >
           https://github.com/darde
         </Text>
       </View>
-    </View>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   view: {
-    flex: 1,
-    alignItems: 'flex-start',
     marginTop: 20,
-    marginBottom: 20,
     padding: 20
   },
   h1: {
@@ -76,7 +76,8 @@ const styles = StyleSheet.create({
   social: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'flex-start',
+    marginBottom: 10
   },
   signature: {
     fontSize: 16,
@@ -84,7 +85,11 @@ const styles = StyleSheet.create({
   },
   position: {
     fontSize: 16,
-    marginBottom: 7,
+    marginBottom: 10,
+  },
+  link: {
+    fontSize: 16,
+    color: '#2962FF'
   }
 });
 
