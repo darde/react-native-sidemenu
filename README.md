@@ -23,12 +23,14 @@ This template uses the beauty project [react native vector icons][vectorIcons] t
 5. In a terminal, inside the root directory, type `npm start`.
 6. After `npm start` run successfully, in the same local, type `react-native run-android`.
 
+For those facing this error: **Could not get BatchedBridge, make sure your bundle is packaged properly**, please, visit the [stackoverflow solution](http://stackoverflow.com/questions/38870710/error-could-not-get-batchedbridge-make-sure-your-bundle-is-packaged-properly)
+
 That's all, now you can change the project according to your needs. If you prefer, you can start a brand new project typing `react-native init myApp`, install the [react native vector icons][vectorIcons], and copy all the `app` folder to your project, as well change the `index.android.js` file accordingly. You even still need to copy the folder `sidemenu/android/app/src/main/res/drawable` for your project.
 
 ### Project Structure
 Basically, this is a default React Native project created by the command line `react-native init react-native-sidemenu`. The core of the template is:
 
-![Project Structure]('project-structure.png')
+![Project Structure](https://raw.githubusercontent.com/darde/react-native-sidemenu/master/project-structure.png)
 
 ### License
 This project is licenced under the [MIT License][mit].
