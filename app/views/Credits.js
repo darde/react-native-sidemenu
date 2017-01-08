@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import {
   View,
+  ScrollView,
   Text,
   StyleSheet
 } from 'react-native';
 
 const Credits = () => {
   return (
-    <View style={styles.view}>
+    <ScrollView contentContainerStyle={styles.view}>
       <Text style={styles.h1}>Credits</Text>
       <Text style={[styles.text, styles.p]}>This template uses images
         from <Text onPress={() =>
@@ -23,7 +24,7 @@ const Credits = () => {
       >
         React Native Vector Icons</Text>.
       </Text>
-    </View>
+    </ScrollView>
   );
 }
 
