@@ -28,7 +28,10 @@ That's all, now you can change the project according to your needs. If you prefe
 ### Project Structure
 Basically, this is a default React Native project created by the command line `react-native init react-native-sidemenu`. The core of the template is:
 
-![Project Structure](https://raw.githubusercontent.com/darde/react-native-sidemenu/master/project-structure.png)
+![Project Structure](https://s20.postimg.org/gppaegl0d/project_structure.png)
+
+| ![](https://s20.postimg.org/r65egsk0t/screenshot_1.png) | ![](https://s20.postimg.org/94m9izpzx/screenshot2.png) |
+| ![](https://s20.postimg.org/6bt1yypnh/screenshot3.png)  | ![](https://s20.postimg.org/tejky4r4t/screenshot4.png) |
 
 ### License
 This project is licenced under the [MIT License][mit].
