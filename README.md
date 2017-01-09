@@ -41,7 +41,7 @@ This project is licenced under the [MIT License][mit].
 Any included software are copyright to their respective authors and mostly under MIT or [SIL OFL][silOfl].
 
 ### Considerations
-It's relatively easy to make some changes if you cannot use [react native vector icons][vectorIcons] and use the buit in **ToolbarAndroid**, although, according the author:
+It's relatively easy to make some changes if you cannot use [react native vector icons][vectorIcons] and use the built in **ToolbarAndroid**, although, according the author:
 > **Icon.ToolbarAndroid** is a composition of the underlying **ToolbarAndroid** component.
 
 As soon as possible I intend to create a new branch to do a version with the built in **ToolbarAndroid** component, or I encourage you to fork this repo and start this work, as well I encourage you to collaborate with any improve for this project.  
