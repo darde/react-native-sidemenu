@@ -1,6 +1,6 @@
 # React Native Side Menu Template
 
-## A starting point for react menu apps with side menu for Android.
+## A starting point for react native apps with side menu for Android.
 
 1. [Motivation](#motivation)
 2. [Get started](#get-started)
