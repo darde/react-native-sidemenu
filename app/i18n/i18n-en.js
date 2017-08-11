@@ -1,0 +1,15 @@
+export default ({
+  'app-title': 'Winter Olympic Games',
+  'app-subtitle': 'Extreme Sports',
+  'alpine-skiing-title': 'Alpine Skiing',
+  'help-title': 'Help',
+  'about-title': 'About Medibox',
+  'drawer-item-1': 'Alpine Skiing',
+  'drawer-item-2': 'Bobsleigh',
+  'drawer-item-3': 'Curling',
+  'drawer-item-4': 'Ice Hockey',
+  'drawer-item-5': 'Snowboard',
+  'drawer-item-6': 'Skeleton',
+  'actions-menu-item-1': 'Help',
+  'actions-menu-item-2': 'About Winter Games',
+});

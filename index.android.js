@@ -4,24 +4,23 @@
  * @flow
  */
 
- import React, { Component } from 'react';
- import {
-   Dimensions,
-   AppRegistry
- } from 'react-native';
+import { AppRegistry } from 'react-native';
+import React from 'react';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import rootReducer from './app/reducers';
+import App from './app/containers/AppContainer';
 
- import App from './app/components/App';
+const store = createStore(rootReducer);
 
- export default class sidemenu extends Component {
-   constructor(props) {
-     super(props);
+ const sidemenu = () => (
+  <Provider store={store}>
+    <MuiThemeProvider muiTheme={getMuiTheme({userAgent: (typeof navigator !== 'undefined' && navigator.userAgent) || 'all' })}>
+      <App />
+    </MuiThemeProvider>
+  </Provider>
+);
 
-   }
-
-   render() {
-     return (
-       <App />
-     );
-   }
- }
 AppRegistry.registerComponent('sidemenu', () => sidemenu);
