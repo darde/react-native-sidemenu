@@ -38,7 +38,7 @@ buck-out
 
 # Android
 .idea
-.gradle
+.gradle/
 local.properties
 *.iml
 /android/
