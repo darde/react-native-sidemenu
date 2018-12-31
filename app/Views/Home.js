@@ -6,7 +6,7 @@ import {
     View,
     Image,
 } from 'react-native';
-import HeaderLeft from '../Navigation/HeaderLeft';
+// import AppBarLeft from '../Navigation/Toolbar/ToolbarLeft';
 
 const Home = () => (
     <ScrollView contentContainerStyle={styles.view}>
@@ -23,11 +23,6 @@ const Home = () => (
         </Text>
     </ScrollView>
 );
-
-Home.navigationOptions = ({ navigation }) => ({
-    title: 'Home',
-    headerLeft: <HeaderLeft navigation={navigation} isHome />,
-});
 
 const styles = StyleSheet.create({
     view: {
