@@ -13,7 +13,7 @@ import {
   headerColor,
   drawerItemColor,
   bgDrawerInactiveItem,
-  bgDrawer,
+  bgDrawerActiveItem,
 } from '../global.styles';
 import routes from './routes';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -22,7 +22,7 @@ const DrawerContent = ({ navigateTo, activeRouteName }) => (
   <ScrollView>
     <View style={styles.header}>
       <View style={styles.headerLogo}>
-        <Icon name="ferry" size={50} color={drawerLogoColor} />
+        <Icon name="lighthouse" size={50} color={drawerLogoColor} />
       </View>
       <View style={styles.subTitle}>
         <Text style={styles.drawerTitle}>Lighthouses</Text>
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
   },
   activeDrawerItem: {
-    backgroundColor: bgDrawer,
+    backgroundColor: bgDrawerActiveItem,
   },
   drawerItem: {
     flexDirection: 'row',
@@ -97,8 +97,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: bgDrawerInactiveItem,
     color: drawerItemColor,
-    height: 48,
+    height: 50,
     paddingLeft: 16,
+    borderBottomWidth: 2,
+    borderBottomColor: '#fff',
   },
   drawerItemLogo: {
     paddingRight: 16,

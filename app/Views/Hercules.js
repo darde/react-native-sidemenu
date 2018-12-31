@@ -35,10 +35,6 @@ const Hercules = () => (
     </ScrollView>
 );
 
-Hercules.navigationOptions = ({ navigation }) => ({
-    title: 'Hercules',
-});
-
 const styles = StyleSheet.create(lighthouseStyles);
 
 export default Hercules;

@@ -27,10 +27,6 @@ const Credits = () => (
     </ScrollView>
 );
 
-Credits.navigationOptions = ({ navigation }) => ({
-  title: 'Credits',
-});
-
 const styles = StyleSheet.create({
   view: {
     flex: 1,

@@ -3,10 +3,8 @@ import {
     ScrollView,
     StyleSheet,
     Text,
-    View,
     Image,
 } from 'react-native';
-// import AppBarLeft from '../Navigation/Toolbar/ToolbarLeft';
 
 const Home = () => (
     <ScrollView contentContainerStyle={styles.view}>

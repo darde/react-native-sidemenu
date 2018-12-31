@@ -35,10 +35,6 @@ const Peggys = () => (
   </ScrollView>
 );
 
-Peggys.navigationOptions = ({ navigation }) => ({
-  title: 'Peggys',
-});
-
 const styles = StyleSheet.create(lighthouseStyles);
 
 export default Peggys;

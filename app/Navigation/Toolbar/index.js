@@ -6,18 +6,39 @@ import {
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { bgHeader } from "../../global.styles";
 
-const Toolbar = ({ showMenu, goBack, actualRouteName }) => (
-  <View style={styles.header}>
-    <Icon.ToolbarAndroid
-      navIconName={actualRouteName === 'Home' ? 'menu' : 'arrow-left'}
-      titleColor="#fff"
-      title={actualRouteName}
-      onIconClicked={actualRouteName === 'Home' ? showMenu : goBack }
-      overflowIconName="dots-vertical"
-      style={{ height: 56 }}
-    />
-  </View>
-);
+class Toolbar extends React.Component {
+  onActionSelected = (position) => {
+    const { actualRouteName, navigateTo } = this.props;
+
+    if (position === 0 && actualRouteName !== 'About') {
+      navigateTo('About');
+    } else if (position === 1 && actualRouteName !== 'Credits') {
+      navigateTo('Credits');
+    }
+  };
+
+  render() {
+    const { showMenu, goBack, actualRouteName } = this.props;
+
+    return (
+      <View style={styles.header}>
+        <Icon.ToolbarAndroid
+          navIconName={actualRouteName === 'Home' ? 'menu' : 'arrow-left'}
+          titleColor="#fff"
+          title={actualRouteName}
+          onIconClicked={actualRouteName === 'Home' ? showMenu : goBack }
+          overflowIconName="dots-vertical"
+          style={{ height: 56 }}
+          actions={[
+            {title: 'About', show: 'never', iconName: 'information-outline'},
+            {title: 'Credits', show: 'never', iconName: 'account-circle'},
+          ]}
+          onActionSelected={this.onActionSelected}
+        />
+      </View>
+    );
+  }
+}
 
 const styles = StyleSheet.create({
   header: {

@@ -35,10 +35,6 @@ const Fanad = () => (
   </ScrollView>
 );
 
-Fanad.navigationOptions = ({ navigation }) => ({
-  title: 'Fanad',
-});
-
 const styles = StyleSheet.create(lighthouseStyles);
 
 export default Fanad;

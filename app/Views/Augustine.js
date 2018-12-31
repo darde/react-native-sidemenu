@@ -35,10 +35,6 @@ const Augustine = () => (
     </ScrollView>
 );
 
-Augustine.navigationOptions = ({ navigation }) => ({
-    title: 'Augustine',
-});
-
 const styles = StyleSheet.create(lighthouseStyles);
 
 export default Augustine;

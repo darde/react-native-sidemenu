@@ -48,10 +48,6 @@ const About = () => (
     </ScrollView>
 );
 
-// About.navigationOptions = ({ navigation }) => ({
-//   title: 'About',
-// });
-
 const styles = StyleSheet.create({
   view: {
     marginTop: 20,

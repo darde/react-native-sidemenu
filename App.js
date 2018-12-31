@@ -76,6 +76,7 @@ export default class App extends Component {
           <Toolbar
             showMenu={this.openDrawer}
             goBack={this.goBack}
+            navigateTo={this.navigateToRoute}
             actualRouteName={routeStack[routeStack.length - 1]}
           />
           <AppNavigation ref={this.navigator} />

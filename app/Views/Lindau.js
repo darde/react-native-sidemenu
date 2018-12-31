@@ -35,10 +35,6 @@ const Lindau = () => (
   </ScrollView>
 );
 
-Lindau.navigationOptions = ({ navigation }) => ({
-  title: 'Lindau',
-});
-
 const styles = StyleSheet.create(lighthouseStyles);
 
 export default Lindau;

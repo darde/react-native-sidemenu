@@ -35,10 +35,6 @@ const Bass = () => (
   </ScrollView>
 );
 
-Bass.navigationOptions = ({ navigation }) => ({
-  title: 'Bass',
-});
-
 const styles = StyleSheet.create(lighthouseStyles);
 
 export default Bass;
