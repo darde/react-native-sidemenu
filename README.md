@@ -3,10 +3,11 @@
 ## A starting point for react native apps with side menu for Android.
 
 1. [Motivation](#motivation)
-2. [Get started](#get-started)
-3. [Project Structure](#project-structure)
-4. [License](#license)
-5. [Considerations](#considerations)
+2. [New features](#new-features)
+3. [Get started](#get-started)
+4. [Project Structure](#project-structure)
+5. [License](#license)
+
 
 ### Motivation
 
@@ -14,7 +15,7 @@ When I worked with [ionic framework](https://ionicframework.com/), one of the be
 
 ### New features
 
-This is the **Version 3.0** of the [original React Native Sidemenu Template](https://github.com/darde/react-native-sidemenu/tree/Version-1.0). This template uses the beauty project [react native vector icons][vectorIcons] that allow us to use font icons collections such as [FontAwesome][fontAwesome], [Ionicons][ionicons], [MaterialIcons][materialIcons] and many others. In this version I replaced some components such as the old React Native Navigator with the new [React Navigation][reactNavigation] component. I also remove the [Redux][redux] library in order to keep the simplicity. If you want to play with Redux please check out the [Version 2](https://github.com/darde/react-native-sidemenu/tree/Version-2.0), however I recommend you to adapt this version to work with Redux.
+This is the **Version 3.0** of the [original React Native Sidemenu Template](https://github.com/darde/react-native-sidemenu/tree/Version-1.0). This template uses the beauty project [react native vector icons][vectorIcons] that allow us to use font icons collections such as [FontAwesome][fontAwesome], [Ionicons][ionicons], [MaterialIcons][materialIcons] and many others. In this version I replaced some components such as the old React Native Navigator with the new [React Navigation][reactNavigation] component. I also remove the [Redux][redux] library in order to keep the simplicity. If you want to play with Redux you can check out the [Version 2](https://github.com/darde/react-native-sidemenu/tree/Version-2.0), however I recommend you to adapt this version to work with Redux.
 
 This project uses:
 
@@ -33,7 +34,7 @@ To get started with react native side menu template just follow the steps below:
 2. clone this repo or download the zip file and unzip it.
 3. In a terminal, inside the project directory, type `npm install` or `yarn` for yarn users.
 4. Open your AVD emulator, or set up a real device in order to work with [react native][reactNative] projects.
-5. In a terminal, inside the root directory, type `npm start` or `yarn start` for yarn users.
+5. In a terminal, inside the root directory, type `npm start` or `yarn start` for yarn users. The App should open up in your AVD or real device.
 
 That's all, now you can change the project according to your needs.
 
