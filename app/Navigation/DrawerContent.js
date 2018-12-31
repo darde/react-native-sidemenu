@@ -16,26 +16,31 @@ import {
   bgDrawer,
 } from '../global.styles';
 import routes from './routes';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const DrawerContent = ({ navigateTo, activeRouteName }) => (
   <ScrollView>
     <View style={styles.header}>
       <View style={styles.headerLogo}>
-        <Icon name="md-boat" size={50} color={drawerLogoColor} />
+        <Icon name="ferry" size={50} color={drawerLogoColor} />
       </View>
       <View style={styles.subTitle}>
         <Text style={styles.drawerTitle}>Lighthouses</Text>
         <Text style={styles.drawerEmail}>pablodarde@gmail.com</Text>
       </View>
     </View>
-    {Object.keys(routes).map(route => (
+    {routes.map(route => (
       <TouchableOpacity
-        key={routes[route]}
-        onPress={() => navigateTo(route)}
-        style={activeRouteName === route ? [styles.drawerItem, styles.activeDrawerItem] : styles.drawerItem}
+        key={route.screen}
+        onPress={() => navigateTo(route.name)}
+        style={activeRouteName === route.name ? [styles.drawerItem, styles.activeDrawerItem] : styles.drawerItem}
       >
-        <Text>{route}</Text>
+        {route.icon && (
+          <View style={styles.drawerItemLogo}>
+            <Icon name={route.icon} size={30} color='#666' />
+          </View>
+        )}
+        <Text>{route.name}</Text>
       </TouchableOpacity>
     ))}
   </ScrollView>
@@ -87,11 +92,16 @@ const styles = StyleSheet.create({
     backgroundColor: bgDrawer,
   },
   drawerItem: {
-    justifyContent: 'center',
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
     backgroundColor: bgDrawerInactiveItem,
     color: drawerItemColor,
     height: 48,
     paddingLeft: 16,
+  },
+  drawerItemLogo: {
+    paddingRight: 16,
   },
 });
 

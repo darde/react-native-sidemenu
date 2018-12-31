@@ -5,7 +5,6 @@ import {
   Platform,
   View,
   StatusBar,
-  Text,
   DrawerLayoutAndroid,
 } from 'react-native';
 import DrawerContent from './app/Navigation/DrawerContent';
@@ -80,7 +79,6 @@ export default class App extends Component {
             actualRouteName={routeStack[routeStack.length - 1]}
           />
           <AppNavigation ref={this.navigator} />
-          <Text>{this.state.routeStack}</Text>
         </View>
       </DrawerLayoutAndroid>
     );

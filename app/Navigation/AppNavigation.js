@@ -5,9 +5,15 @@ import {
 } from 'react-navigation';
 import routes from './routes';
 
+const routeConfig = {};
+
+routes.map(route => {
+  routeConfig[route.name] = route.screen;
+});
+
 const MainStack = createStackNavigator(
     {
-      ...routes,
+      ...routeConfig,
     },
     {
         headerMode: 'none',
