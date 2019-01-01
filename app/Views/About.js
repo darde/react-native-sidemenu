@@ -11,7 +11,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 const About = () => (
   <ScrollView contentContainerStyle={styles.view}>
       <Text style={styles.h1}>About</Text>
-      <Text style={[styles.text, styles.p]}>This is the second version of my React Native template. It is a
+      <Text style={[styles.text, styles.p]}>This is the third version of my React Native template. It is a
         sidemenu boilerplate for Android. It has some awesome features such as the new <Text onPress={() =>
           Linking.openURL('https://reactnavigation.org/')}
           style={styles.linkCredits}
