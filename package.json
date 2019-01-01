@@ -1,6 +1,6 @@
 {
   "name": "sidemenuV3",
-  "version": "0.0.1",
+  "version": "3.0.0",
   "private": true,
   "scripts": {
     "start": "npx react-native run-android"
