@@ -8,11 +8,11 @@ import { bgHeader } from "../../global.styles";
 
 class Toolbar extends React.Component {
   onActionSelected = (position) => {
-    const { actualRouteName, navigateTo } = this.props;
+    const { navigateTo } = this.props;
 
-    if (position === 0 && actualRouteName !== 'About') {
+    if (position === 0) {
       navigateTo('About');
-    } else if (position === 1 && actualRouteName !== 'Credits') {
+    } else if (position === 1) {
       navigateTo('Credits');
     }
   };

@@ -37,7 +37,26 @@ export default class App extends Component {
     this.drawer.current.closeDrawer();
   };
 
+  stackHasRoute = route => this.state.routeStack.find(item => item === route);
+
   navigateToRoute = (routeName) => {
+    if (routeName === this.state.routeStack[this.state.routeStack.length - 1]) {
+      this.closeDrawer();
+      return;
+    }
+
+    if (this.stackHasRoute(routeName)) {
+      this.setState({
+        routeStack: this.state.routeStack.slice(0, this.state.routeStack.indexOf(routeName))
+          .concat([routeName]),
+      });
+      this.navigator.current && this.navigator.current.dispatch(
+        NavigationActions.navigate({ routeName })
+      );
+      this.closeDrawer();
+      return;
+    }
+
     this.navigator.current && this.navigator.current.dispatch(
       NavigationActions.navigate({ routeName })
     ) && this.setState({

@@ -21,7 +21,7 @@ This project uses:
 
 1. [react native vector icons][vectorIcons] library
 2. React Native [DrawerLayoutAndroid](https://facebook.github.io/react-native/docs/drawerlayoutandroid) component.
-3. React Native [ToolbarAndroid](https://facebook.github.io/react-native/docs/toolbarandroid) component
+3. [Icon.ToolbarAndroid](https://github.com/oblador/react-native-vector-icons#usage-with-toolbarandroid) component
 4. [React Navigation][reactNavigation] component
 
 ### Get started
@@ -39,8 +39,8 @@ To get started with react native side menu template just follow the steps below:
 That's all, now you can change the project according to your needs.
 
 ### Project Structure
-Basically, this is a default React Native project created by the command line `react-native init react-native-sidemenu`. The core of the template is:
-
+Basically, this is a default React Native boilerplate created by the command line `react-native init react-native-sidemenu`. The core of the template is in the `app` folder:
+You can modify the menu items in the `app/Navigation/routes.js` file. You can also change the _Overflow Menu Items_ navigation in the `app/Navigation/Toolbar/index.js` file.
 
 ### License
 This project is licenced under the [MIT License][mit].
