@@ -42,6 +42,10 @@ That's all, now you can change the project according to your needs.
 Basically, this is a default React Native boilerplate created by the command line `react-native init react-native-sidemenu`. The core of the template is in the `app` folder:
 You can modify the menu items in the `app/Navigation/routes.js` file. You can also change the _Overflow Menu Items_ navigation in the `app/Navigation/Toolbar/index.js` file. All the screens are located in the `app/Views` folder.
 
+| Project Structure                               | Template animation |
+------------------------------------------------------------------------
+|![Project structure](./app/img/project-structure.png) | ![](./app/img/react-native-sidemenu.gif)    |
+
 ### License
 This project is licenced under the [MIT License][mit].
 
