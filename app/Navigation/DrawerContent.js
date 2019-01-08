@@ -11,9 +11,11 @@ import {
   bgDrawerHeader,
   drawerLogoColor,
   headerColor,
-  drawerItemColor,
+  drawerActiveItemColor,
+  drawerInactiveItemColor,
   bgDrawerInactiveItem,
   bgDrawerActiveItem,
+  drawerHeaderColor,
 } from '../global.styles';
 import routes from './routes';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -36,11 +38,17 @@ const DrawerContent = ({ navigateTo, activeRouteName }) => (
         style={activeRouteName === route.name ? [styles.drawerItem, styles.activeDrawerItem] : styles.drawerItem}
       >
         {route.icon && (
-          <View style={styles.drawerItemLogo}>
-            <Icon name={route.icon} size={30} color='#666' />
+          <View
+            style={styles.drawerItemLogo}
+          >
+            <Icon
+              name={route.icon}
+              size={30}
+              color={activeRouteName === route.name ? "#fff" : "#000"}
+            />
           </View>
         )}
-        <Text>{route.name}</Text>
+        <Text style={activeRouteName === route.name ? {color: "#fff"} : {color: "#000"}}>{route.name}</Text>
       </TouchableOpacity>
     ))}
   </ScrollView>
@@ -77,13 +85,13 @@ const styles = StyleSheet.create({
     paddingTop: 8,
   },
   drawerTitle: {
-    color: headerColor,
+    color: drawerHeaderColor,
     fontFamily: 'Roboto',
     fontWeight: '500',
     fontSize: 14,
   },
   drawerEmail: {
-    color: headerColor,
+    color: drawerHeaderColor,
     fontFamily: 'Roboto',
     fontWeight: '400',
     fontSize: 14,
@@ -96,7 +104,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     alignItems: 'center',
     backgroundColor: bgDrawerInactiveItem,
-    color: drawerItemColor,
+    color: drawerInactiveItemColor,
     height: 50,
     paddingLeft: 16,
     borderBottomWidth: 2,
