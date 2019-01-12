@@ -21,6 +21,9 @@ This is the **Version 3.0** of the [original React Native Sidemenu Template](htt
 
 **If you are looking for a pure solution without Redux, checkout [this branch](https://github.com/darde/react-native-sidemenu/tree/version-3-without-redux).**
 
+![React Navigation with React Readux](./app/img/diagram.png)
+Diagram: Simple integration with React Navigation with React Redux.
+
 This project uses:
 
 1. [react native vector icons][vectorIcons] library
