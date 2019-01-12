@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
         width: '70%',
         textAlign: 'center',
         lineHeight: 30,
-        marginBottom: '20%',
+        marginBottom: '10%',
     },
 });
 
