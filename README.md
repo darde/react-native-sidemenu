@@ -15,7 +15,7 @@ When I worked with [ionic framework](https://ionicframework.com/), one of the be
 
 ### New features
 
-This is the **Version 3.0** of the [original React Native Sidemenu Template](https://github.com/darde/react-native-sidemenu/tree/Version-1.0). This template uses the beauty project [react native vector icons][vectorIcons] that allow us to use font icons collections such as [FontAwesome][fontAwesome], [Ionicons][ionicons], [MaterialIcons][materialIcons] and many others. In this version I replaced some components such as the old React Native Navigator with the new [React Navigation][reactNavigation] component. I also remove the [Redux][redux] library in order to keep the simplicity. If you want to play with Redux you can check out the [Version 2](https://github.com/darde/react-native-sidemenu/tree/Version-2.0), however I recommend you to adapt this version to work with Redux.
+This is the **Version 3.0** of the [original React Native Sidemenu Template](https://github.com/darde/react-native-sidemenu/tree/Version-1.0). This template uses the beauty project [react native vector icons][vectorIcons] that allow us to use font icons collections such as [FontAwesome][fontAwesome], [Ionicons][ionicons], [MaterialIcons][materialIcons] and many others. In this version I replaced some components such as the old React Native Navigator with the new [React Navigation][reactNavigation] component. This version is a simple implementation without [Redux][redux]. If you want to play with Redux check out the [master branch](https://github.com/darde/react-native-sidemenu/tree/master).
 
 This project uses:
 
