@@ -2,6 +2,8 @@
 
 ## A starting point for react native apps with side menu for Android.
 
+This version works with [Redux][redux]. You can find a version without Redux [here](https://github.com/darde/react-native-sidemenu/tree/version-3-without-redux).
+
 1. [Motivation](#motivation)
 2. [New features](#new-features)
 3. [Get started](#get-started)
@@ -17,7 +19,7 @@ When I worked with [ionic framework](https://ionicframework.com/), one of the be
 
 This is the **Version 3.0** of the [original React Native Sidemenu Template](https://github.com/darde/react-native-sidemenu/tree/Version-1.0). This template uses the beauty project [react native vector icons][vectorIcons] that allow us to use font icons collections such as [FontAwesome][fontAwesome], [Ionicons][ionicons], [MaterialIcons][materialIcons] and many others. In this version I replaced some components such as the old React Native Navigator with the new [React Navigation][reactNavigation] component. To allow both Toolbar and Drawer components to work together, I combined [Redux][redux] with [React Navigation][reactNavigation] in a simple way. See the diagram below for more information.
 
-**If you are looking for a pure solution without Redux, checkout this branch.**
+**If you are looking for a pure solution without Redux, checkout [this branch](https://github.com/darde/react-native-sidemenu/tree/version-3-without-redux).**
 
 This project uses:
 
